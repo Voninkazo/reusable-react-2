@@ -1,28 +1,29 @@
-body {
-}
+body {}
 
 input {
-	margin: 5px 0;
-	padding: 5px;
-	min-width: 250px;
+    margin: 5px 0;
+    padding: 5px;
+    min-width: 250px;
 }
 
 .counterInput button {
-	margin: 5px;
-	margin-left: 0;
-	background: #41a5e1;
-	border: none;
-	border-radius: 5px;
-	color: white;
-	font-size: 16px;
-	font-weight: bold;
-	cursor: pointer;
+    margin: 5px;
+    margin-left: 0;
+    background: #41a5e1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .counterInput.tooLong {
-	color: red;
+    color: red;
 }
 
 .counterInput.tooLong textarea {
-	background: #eebbbb;
+    background: #eebbbb;
+    pointer-events: none;
+    opacity: 0.3;
 }
